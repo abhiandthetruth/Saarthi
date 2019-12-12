@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parkingOpt">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <SearchView
+        android:id="@+id/searchView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:iconifiedByDefault="false"
+
+        android:queryBackground="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:queryHint="Search Location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/RegisterP"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/preference_wrapped_icon"
+        android:elevation="10dp"
+        android:src="@drawable/ic_add_white_24dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/preference_wrapped_icon"
+        android:src="@android:drawable/ic_menu_myplaces"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/swtchH"
+        android:layout_width="42dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="40dp"
+        android:buttonTint="#724EEB"
+        android:background="@color/primary_text_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="236dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="40dp"
+        android:text="Heavy Vehicle Allowance"
+        android:textColor="#724EEB"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/swtchH" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
