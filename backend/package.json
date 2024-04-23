@@ -21,7 +21,7 @@
     "googlemaps-v3-utility-library": "^1.0.1",
     "jsonwebtoken": "^7.4.1",
     "mathjs": "^6.2.2",
-    "mongoose": "^5.7.5",
+    "mongoose": "^5.13.20",
     "node-kmeans": "^1.1.9",
     "sentiment": "^5.0.2",
     "utm": "^1.1.1"
